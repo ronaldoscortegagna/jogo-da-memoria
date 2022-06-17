@@ -1,19 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Open+Sans:ital,wght@0,400;1,300&display=swap');
 
 * {
     padding: 0;
     margin: 0;
+    background-color: rgb(188, 248, 228);
     box-sizing: border-box;
 }
 
+header {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 25px;
+    font-family: 'Amatic SC', sans-serif;
+}
+
+h1
+
 body {
-    height: 100vh;
+    height: 100%;
     display: flex;
-    background-color: rgb(188, 248, 228);
+    margin-top: 50px;
 }
 
 footer {
     width: 100%;
+    margin-top: 5px;
     background-color: #4e545c;
 	padding: 6px;
 	color: #e5e8e8;
@@ -27,6 +39,8 @@ footer {
     height: 600px;
     width: 600px;
     margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
     display: flex;
     flex-wrap: wrap;
     perspective: 1000px; /* perspectiva do usuario no eixo z, quanto maior, maior o efeito da perspectiva */
@@ -69,3 +83,15 @@ footer {
 .card.flip {
     transform: rotateY(180deg);
 }
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
